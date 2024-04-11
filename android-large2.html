@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div
+      class="w-full relative rounded-3xs h-[800px] overflow-hidden text-left text-base text-black font-montserrat"
+    >
+      <img
+        class="absolute top-[696px] left-[299px] w-[60px] h-[60px]"
+        id="group"
+        alt=""
+        src="/public/Group-2.png"
+      />
+
+      <div class="absolute top-[499px] left-[16px] text-xl font-semibold">
+        Get Burn
+      </div>
+      <div
+        class="absolute top-[538px] left-[16px] font-medium text-gray-200 inline-block w-[343px]"
+      >
+        Let’s keep burning to achieve your goals, it hurts only temporarily, if
+        you give up now you will be in pain forever
+      </div>
+      <div
+        class="absolute top-[44px] left-[323px] [text-decoration:underline] font-medium text-cornflowerblue-100 cursor-pointer"
+        id="skipText"
+      >
+        Skip
+      </div>
+      <img
+        class="absolute top-[156px] left-[calc(50%_-_176.5px)] w-[352px] h-[234.6px] object-cover"
+        alt=""
+        src="/public/image-16.png"
+      />
+
+      <div
+        class="absolute top-[0px] left-[0px] w-[375px] h-11 overflow-hidden text-center text-mini text-gray-300"
+      >
+        <div
+          class="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-white hidden"
+        ></div>
+        <div class="absolute flex justify-items-center  top-[16px] right-[14.3px] w-[66.7px] h-[11.7px]">
+          <div class="absolute top-[0px] right-[0.1px] w-[24.3px] h-[11.3px]">
+            <div
+              class="absolute top-[0px] right-[2.3px] rounded-[2.67px] box-border w-[22px] h-[11.3px] opacity-[0.35] mix-blend-normal border-[1px] border-solid border-gray-300"
+            ></div>
+            <img
+              class="absolute top-[3.7px] right-[0px] w-[1.3px] h-1 opacity-[0.4] mix-blend-normal"
+              alt=""
+              src="/public/cap.svg"
+            />
+
+            <div
+              class="absolute top-[2px] right-[4.3px] rounded-[1.33px] bg-gray-300 w-[18px] h-[7.3px]"
+            ></div>
+          </div>
+          <img
+            class="relative w-[15.3px] h-[11px]"
+            alt=""
+            src="/public/Wifi.png"
+          />
+
+          <img
+            class="relative w-[17px] h-[10.7px]"
+            alt=""
+            src="/public/Cellular-Connection.png"
+          />
+        </div>
+        <div
+          class="absolute w-[14.4%] top-[calc(50%_-_10px)] left-[3.73%] tracking-[-0.3px] font-semibold inline-block"
+        >
+          9:41
+        </div>
+      </div>
+    </div>
+
+    <script>
+        var group = document.getElementById("group");
+      if (group) {
+        group.addEventListener("click", function (e) {
+          window.location.href = "./android-large4.html";
+        });
+      }
+      var skipText = document.getElementById("skipText");
+      if (skipText) {
+        skipText.addEventListener("click", function (e) {
+          window.location.href = "./android-large4.html";
+        });
+      }
+      </script>
+  </body>
+</html>
